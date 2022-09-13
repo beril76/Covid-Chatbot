@@ -2,10 +2,11 @@ import nltk
 from nltk.stem.lancaster import LancasterStemmer
 stemmer = LancasterStemmer()
 
-import numpy
+import numpy 
 import tflearn
 import tensorflow
 import random
+import pandas as pd
 
 import json
 with open('D:\\Beril\\Desktop\\Chatbot\\covid.json', encoding='utf-8') as file:
